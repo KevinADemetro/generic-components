@@ -1,5 +1,5 @@
-function TableFooter() {
-  return <div></div>;
+function TableFooter({ children }) {
+  return <tfoot>{children}</tfoot>;
 }
 
 export default TableFooter;

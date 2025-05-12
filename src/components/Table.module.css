@@ -1,0 +1,10 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+  background-color: white;
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}

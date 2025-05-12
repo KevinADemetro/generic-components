@@ -1,0 +1,14 @@
+.tableBody tr:nth-child(odd) {
+  background-color: var(--secondary);
+}
+
+.tableBody tr:hover {
+  background-color: var(--hover-bg);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.tableBody td {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid var(--border-color);
+}
