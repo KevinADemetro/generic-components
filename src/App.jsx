@@ -1,7 +1,13 @@
+import Sidebar from "./components/Sidebar";
 import Products from "./pages/Products";
 
 function App() {
-  return <Products />;
+  return (
+    <>
+      <Sidebar />
+      {/* <Products /> */}
+    </>
+  );
 }
 
 export default App;

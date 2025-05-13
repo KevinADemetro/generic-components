@@ -1,10 +1,20 @@
 .tableHeader {
   background-color: var(--primary);
   color: var(--header-text);
+  overflow: hidden;
 }
 
 .tableHeader td {
   padding: 0.75rem 1rem;
   text-align: left;
   font-weight: bold;
+}
+
+.tableHeader td:first-child {
+  border-radius: 0.5rem 0 0 0;
+  overflow: hidden;
+}
+.tableHeader td:last-child {
+  border-radius: 0 0.5rem 0 0;
+  overflow: hidden;
 }

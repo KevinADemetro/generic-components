@@ -12,3 +12,13 @@
   padding: 0.75rem 1rem;
   border-top: 1px solid var(--border-color);
 }
+
+.tableBody tr:last-child td:last-child {
+  border-radius: 0 0 0.5rem 0;
+  overflow: hidden;
+}
+
+.tableBody tr:last-child td:first-child {
+  border-radius: 0 0 0 0.5rem;
+  overflow: hidden;
+}
